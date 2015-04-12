@@ -22,7 +22,7 @@ document
   event.preventDefault();
 
   var formData = {
-    age: parseInt(ageInput.value)
+    age: window.parseInt(ageInput.value)
   };
 
   var isValid = validator(formData);
